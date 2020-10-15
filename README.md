@@ -1,4 +1,4 @@
-# react-aws-s3
+# https://www.npmjs.com/package/aws-s3-reactjs
 Open Source Module to Upload your Media and files into AWS S3 Bucket directly from Front-end React.
 
 ### https://www.npmjs.com/package/aws-s3-react
@@ -9,12 +9,12 @@ S3Client - A Javascript Library for AWS S3 File Upload
 Using NPM
 
 ```
-npm install --save react-aws-s3
+npm install --save https://www.npmjs.com/package/aws-s3-reactjs
 ```
 Using Yarn 
 
 ```
-yarn add react-aws-s3
+yarn add https://www.npmjs.com/package/aws-s3-reactjs
 ```
 
 
@@ -24,7 +24,7 @@ yarn add react-aws-s3
 ## ***Uploading to S3***
 
 ```js
-import S3 from 'react-aws-s3';
+import S3 from 'https://www.npmjs.com/package/aws-s3-reactjs';
 
 const config = {
     bucketName: 'myBucket',
@@ -32,14 +32,13 @@ const config = {
     region: 'eu-west-1',
     accessKeyId: 'JAJHAFJFHJDFJSDHFSDHFJKDSF',
     secretAccessKey: 'jhsdf99845fd98qwed42ebdyeqwd-3r98f373f=qwrq3rfr3rf',
-    s3Url: 'https:/your-custom-s3-url.com/', /* optional */
+    s3Url: 'https:/your-custom-s3-url.com/'
 }
 
 const ReactS3Client = new S3(config);
 /*  Notice that if you don't provide a dirName, the file will be automatically uploaded to the root of your bucket */
 
-/* This is optional */
-const newFileName = 'test-file';
+const newFileName = 'fileName.extesion';
 
 ReactS3Client
     .uploadFile(file, newFileName)
@@ -63,7 +62,7 @@ ReactS3Client
 In this case the file that we want to delete is in the folder 'photos'
 
 ```js
-import S3 from 'react-aws-s3';
+import S3 from 'https://www.npmjs.com/package/aws-s3-reactjs';
 
 
 const config = {
@@ -72,7 +71,7 @@ const config = {
     region: 'eu-west-1',
     accessKeyId: 'JAJHAFJFHJDFJSDHFSDHFJKDSF',
     secretAccessKey: 'jhsdf99845fd98qwed42ebdyeqwd-3r98f373f=qwrq3rfr3rf',
-    s3Url: 'https:/your-custom-s3-url.com/', /* optional */
+    s3Url: 'https:/your-custom-s3-url.com/'
 }
 
 const ReactS3Client = new S3(config);

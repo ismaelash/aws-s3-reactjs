@@ -1,6 +1,6 @@
 {
   "name": "aws-s3-reactjs",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Open Source Module to Upload your Media and files into AWS S3 Bucket directly from Front-end React.",
   "author": "Ismael Nascimento",
   "main": "dist/react-aws-s3.js",
@@ -38,13 +38,13 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "crypto-js": "^3.1.9-1",
+    "crypto-js": "^3.3.0",
     "short-uuid": "^3.1.0"
   },
   "devDependencies": {
-    "@types/crypto-js": "^3.1.43",
+    "@types/crypto-js": "^3.1.47",
     "microbundle": "^0.9.0",
-    "typescript": "^3.2.4"
+    "typescript": "^3.9.7"
   },
   "repository": {
     "type": "git",
