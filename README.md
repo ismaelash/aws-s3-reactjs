@@ -1,6 +1,9 @@
 # aws-s3-reactjs
 Open Source Module to Upload your Media and files into AWS S3 Bucket directly from Front-end React.
 
+## Video
+How to use = https://youtu.be/1U9Ohj3T4gI
+
 ### https://www.npmjs.com/package/aws-s3-reactjs
 # S3Client AWS-S3
 
